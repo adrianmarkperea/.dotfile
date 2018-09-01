@@ -1,0 +1,20 @@
+[alias]
+    st = status
+    d = diff --color-words
+    dw = diff --word-doff
+    ci = commit -v
+    cia = commit -v -a
+    ca = commia -a -m
+    co = checkout -b
+    cp = cherry-pick
+    l = log
+    ll = log -p
+    lod = log --oneline --decorate
+    lgraph = log --oneline --decorate --graph
+    b = branch
+    pom = push origin master
+    pullit = pull --rebase
+    rem = remoate add origin
+    unstash = stash branch
+[push]
+    default = simple
