@@ -4,8 +4,8 @@
     dw = diff --word-doff
     ci = commit -v
     cia = commit -v -a
-    ca = commia -a -m
-    co = checkout -b
+    ca = commit -a -m
+    co = checkout
     cp = cherry-pick
     l = log
     ll = log -p
@@ -18,3 +18,6 @@
     unstash = stash branch
 [push]
     default = simple
+[user]
+	email = adrianmarkperea@gmail.com
+	name = Adrian Mark Clave Perea
